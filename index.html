@@ -77,22 +77,22 @@
         <!-- SLider or carousel -->
         <div class="carousel w-10/12 mx-5 lg:mx-0 lg:w-full banner-bg">
             <!-- slide 1 -->
-            <div id="slide1" class="carousel-item relative w-full">
+            <div id="slide1" class="carousel-item lg:relative w-full">
                 <div class="flex flex-col lg:flex-row items-center p-2 lg:p-24 lg:gap-5">
                     <div class="space-y-3 lg:space-y-7 lg:flex-1">
-                        <h1 class="text-xl font-medium lg:text-6xl">Ride-on R15 V4 with Smile</h1>
-                        <p class="text-xs">
+                        <h1 class="text-3xl text-white font-medium lg:text-6xl">Ride On <span class="text-[#10c6f4]">R15 V4</span> with Smile</h1>
+                        <p class="text-base">
                             Amet minim mollit non deserunt ullamco
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                         </p>
-                        <button class="btn btn-bg">Purchase</button>
+                        <button class="btn text-white btn-bg border-[#10c6f4]">Purchase</button>
                     </div>
                     <div class="flex-1">
                         <img src="./images/slider/bike4.png" alt="">
                     </div>
                 </div>
                 <div
-                    class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-[60%] lg:top-1/2">
+                    class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-[45%] lg:top-1/2">
                     <a href="#slide4" class="btn btn-circle">❮</a>
                     <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
@@ -388,8 +388,32 @@
     </main>
     <!-- Main end here -->
     <!-- Footer start here -->
-    <footer class="w-4/5 container mx-auto">
-
+    <footer class=" bg-black py-12">
+        <div
+            class="w-[90%] lg:w-4/5 mx-auto container flex flex-col lg:flex-row justify-between gap-10 md:gap-0 md:items-center">
+            <div class="space-y-3">
+                <div class="flex gap-6 text-slate-200">
+                    <a href="">Download Now</a>
+                    <a href="">License</a>
+                </div>
+                <div class="flex flex-col md:flex-row gap-2 md:gap-6 text-slate-300">
+                    <a href="">About</a>
+                    <a href="">Features</a>
+                    <a href="">Pricing</a>
+                    <a href="">Careers</a>
+                    <a href="">Help</a>
+                    <a href="">Privacy Policy</a>
+                </div>
+                <p class="text-xs text-center md:text-start">© 2024 bike. All rights reserved</p>
+            </div>
+            <div class="space-y-4 ">
+                <h1 class="text-lg text-center md:text-start text-white">Get the App</h1>
+                <div class="flex gap-[20px]">
+                    <img class="w-[46%] md:w-1/2" src="./images/others/ios.png" alt="">
+                    <img class="w-[46%] md:w-1/2" src="./images/others/android.png" alt="">
+                </div>
+            </div>
+        </div>
     </footer>
     <!-- Footer end here -->
 </body>
